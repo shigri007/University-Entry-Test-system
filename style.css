@@ -1,0 +1,95 @@
+*{
+    margin:0;
+	padding:0;
+	border:0;    
+}
+
+
+body {
+	margin:0;
+	padding:0;
+background-image: url(https://www.publicdomainpictures.net/pictures/170000/velka/yellow-gradient-background-1461271359KTH.jpg); 
+    background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+
+	
+}
+
+h1 {
+	text-align:center;
+	font-size:35px;
+	color:#56a5eb;
+	padding:60px;
+}
+::placeholder{
+    color: white;
+}
+#a{
+    margin-top:35px;
+    left: 1354px;
+    position: absolute;
+}
+#c{
+    margin-top: 45px;
+    left:1020px;
+    position: absolute;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+.content1 {
+    margin-left:26%;
+	width: 48%;
+    padding: 30px 0;
+    float: left;
+    border-radius: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0.2, 0.3);
+
+}
+.content1 input[type="text"] {
+	padding:10px 40px 10px 10px;
+	width:70%;
+    text-align:left;
+	outline:none;
+	background:no-repeat 450px 10px;
+	margin-top:6%;
+	border:1px solid white;
+	color:white;
+	
+}
+.content1 input[type="password"] {
+	padding:10px 40px 10px 10px;
+	width:70%;
+	border:1px solid white;
+	text-align:left;
+	outline:none;
+	background:450px 10px;
+	margin-top:6%;
+}
+.a1{
+	width:100%;
+	margin-top:5%;
+	padding-bottom:40px;
+}
+.sign-in {
+	padding:10px;
+	background-color:green;
+	width:40%;
+    color: white;
+	border:none;
+	margin-left:62px;
+	float:left;
+	border-radius:6px;
+}
+.signup {
+	padding:10px;
+	background-color:red;
+    float:right;
+	margin-right:62px;
+	border-radius:6px;	
+	width:35%;
+	color:white;
+}
